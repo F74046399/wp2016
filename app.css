@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-
-<style>
-body{
-    background-color=white;
+div{
+    width:800px;
+    height:120px;
 }
-p{
-    color=lightgray;
+p.title{
+    position:relative;
+    top:30px;
+    left=100px;
 }
-</style>
-
-</html>
 
