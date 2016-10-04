@@ -1,8 +1,7 @@
 .title {
-    
-    width: 200px;
+    width: 600px;
     height: auto;
-    margin: auto;
+    margin:[50px][auto][auto][400px];
 }
 /*p{
     position:relative;
