@@ -1,5 +1,5 @@
-.title div p{
-    border-bottom: 3px solid hsla(200,60%,70%,0.3);
+.title {
+    
     width: 500px;
     height: auto;
     margin: auto;
