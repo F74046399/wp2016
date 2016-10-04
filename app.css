@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
-
 .title div p{
     border-bottom: 3px solid hsla(200,60%,70%,0.3);
-    width: 50%;
+    width: 500px;
     height: auto;
     margin: auto;
 }
@@ -15,6 +9,4 @@
     top:10px;
     left=400px;
 }*/
-</style>
-</head>
-</html>
+
