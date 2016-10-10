@@ -36,4 +36,14 @@
 
 
 }
+#goto a {
+      color:#000000;
+    
+}
+#goto a:hover{
+      color:#8B0000;
+}
+#goto a:active{
+      color:#8B0000;
+}
 
