@@ -45,9 +45,9 @@
     margin-right:auto;
 
 }
-#goto p a:link{color:#8B0000;}
-#goto p a:visited{color:block}
-#goto p a:hover{color:DarkRed;}
+#goto p a:link{color:block;}
+#goto p a:visited{color:block;}
+#goto p a:hover{color:Brown;}
 
 
 
