@@ -45,8 +45,8 @@
     margin-right:auto;
 
 }
-A #goto:link{color:#000000;}
-A #goto:hover{color:#8B0000;}
+A.goto:link{color:#000000;}
+A.goto:hover{color:#8B0000;}
 
 
 
