@@ -44,6 +44,7 @@
      margin-left:50%;
      margin-bottom:auto;
      margin-right:auto;
+     border: 2px solid red;
 
 }
 .b{
@@ -51,7 +52,7 @@
      height: auto;
      margin-top:auto;
      margin-left:70%;
-     margin-bottom:90%;
+     margin-bottom:500px;
      margin-right:auto;
 
 }
@@ -60,5 +61,12 @@
 #goto p a:hover{color:FireBrick;}
 #goto p a:active{color:FireBrick;}
 
-
+$animSpd: 750 * 1ms;//chamge also in JS
+$numOfSlides:2;
+$bgPics:(
+url('https://c8.staticflickr.com/6/5559/30185241951_258e6821bc_c.jpg')
+center center no-repeat,
+url('https://c2.staticflickr.com/6/5535/30185943961_fed86d2235_c.jpg')
+center center no-repeat,
+);
 
