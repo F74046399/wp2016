@@ -46,7 +46,15 @@
      margin-right:auto;
 
 }
+.b{
+     width: 100px;
+     height: auto;
+     margin-top:auto;
+     margin-left:70%;
+     margin-bottom:60%;
+     margin-right:auto;
 
+}
 #goto p a:link{color:Black;}
 #goto p a:visited{color:Black;}
 #goto p a:hover{color:FireBrick;}
