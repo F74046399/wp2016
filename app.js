@@ -1,0 +1,91 @@
+$(document).ready(function(){
+  $("#text3").hide();
+  $("#text4").hide();
+  $("#text7").hide();
+  $("#text8").hide();
+  $("#text9").hide();
+  $("#text16").hide();
+  $("#text17").hide();
+  $("#text18").hide();
+  $("#text19").hide();
+ $("#text10").show();
+ $(".button2").click(function(){
+  $("#hi").animate({width:'0px'});
+  $("#text1").hide();
+  $("#text2").hide();
+  $("#text3").hide();
+  $("#text4").hide();
+  $("#text16").show();
+  $("#text17").show();
+  $("#text18").show();
+  $("#text19").show();
+  $("#hi2").animate({width:'0px'});
+  $("#hi3").animate({width:'600px'});
+  $(".button1").css("background-color","white");
+  $(".button2").css("background-color","DarkSalmon"); 
+    $(".button3").css("background-color","white");
+  });
+
+   $(".button1").click(function(){
+   $("#hi").animate({width:'600px'});
+   $("#hi2").animate({width:'0px'}); 
+    $("#hi3").animate({width:'0px'});
+   $("#text1").show();
+   $("#text2").show();
+   $("#text3").hide();
+   $("#text4").hide();
+   $("#text16").hide();
+   $("#text17").hide();
+   $("#text18").hide();
+   $("#text19").hide();
+   $(".button3").css("background-color","white");
+   $(".button2").css("background-color","white");
+   $(".button1").css("background-color","DarkSalmon");
+   });
+ $(".button3").click(function(){
+    $("#hi").animate({width:'0px'});
+    $("#hi2").animate({width:'600px'});
+     $("#hi3").animate({width:'0px'});
+    $("#text1").hide();
+    $("#text2").hide();
+    $("#text3").show();
+    $("#text4").show();
+    $("#text16").hide();
+    $("#text17").hide();
+    $("#text18").hide();
+    $("#text19").hide();
+    $(".button1").css("background-color","white");
+    $(".button2").css("background-color","white");
+    $(".button3").css("background-color","DarkSalmon");
+  });
+
+   $(".top").mouseover(function(){
+      $("#text5").hide();
+      $("#text7").show();
+   });
+       $(".top").mouseout(function(){
+          $("#text5").show();
+          $("#text7").hide();
+    });
+        $(".content1").mouseover(function(){
+      $("#text5").hide();
+      $("#text8").show();
+   });
+       $(".content1").mouseout(function(){
+          $("#text5").show();
+          $("#text8").hide();
+    });
+
+     $(".content2").mouseover(function(){
+      $("#text5").hide();
+      $("#text9").show();
+   });
+       $(".content2").mouseout(function(){
+          $("#text5").show();
+          $("#text9").hide();
+    });
+
+
+
+});
+
